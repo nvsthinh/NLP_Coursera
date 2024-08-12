@@ -91,7 +91,7 @@ Với cách diễn giải bằng code ta có như sau
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W152.png" width="400"/>
-</p>)
+</p>
 
 ## 1.6. Logistic Regression Overview
 
@@ -101,13 +101,13 @@ Logistic regression sử dụng hàm Sigmoid để cho Output là xác suất n�
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W160.png" width="400"/>
-</p>)
+</p>
 
 Ví dụ cụ thể như sau:
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W161.png" width="400"/>
-</p>)
+</p>
 
 ## 1.7. **Logistic Regression: Training**
 
@@ -115,13 +115,13 @@ Sau khi hiểu model Logistic Regression, thì tới bước huấn luyện theo
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W170.png" width="400"/>
-</p>)
+</p>
 
 Thì khi huấn luyện xong thì hàm Cost có giá trị theo Epoch như sau:
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W180.png" width="400"/>
-</p>)
+</p>
 
 ## 1.8. L**ogistic Regression: Testing**
 
@@ -131,13 +131,13 @@ Với Output đầu ra là $h(X_{val},\theta)$. Chúng ta sẽ lấy những sam
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W180.png" width="400"/>
-</p>)
+</p>
 
 Sau khi có Output có format như class thì chúng ta sẽ tính Accuracy giữa Dự đoán và Thực tế
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W181.png" width="400"/>
-</p>)
+</p>
 
 ## 1.9. **Logistic Regression: Cost Function**
 
@@ -149,4 +149,4 @@ $$
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W190.png" width="400"/>
-</p>)
+</p>
