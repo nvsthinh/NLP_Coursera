@@ -98,19 +98,19 @@ Khi $*m$* lớn hơn, chúng ta có thể gặp phải vấn đề về việc s
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W252.png" width="400"/>
-</p>.
+</p>
 
 Thành phần đầu tiên được gọi là log prior và thành phần thứ hai là log likelihood. Chúng tôi giới thiệu thêm $𝜆$ như sau:
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W253.png" width="400"/>
-</p>.
+</p>
 
 Sau khi chúng ta tính toán được $𝜆$ dictionary, việc suy luận trở nên đơn giản:
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W254.png" width="400"/>
-</p>.
+</p>
 
 Như bạn có thể thấy ở trên, vì $3.3>0$, chúng ta sẽ phân loại tài liệu là dương. Nếu chúng ta nhận được số âm, chúng ta sẽ phân loại nó vào lớp âm.
 
@@ -132,7 +132,7 @@ Như bạn có thể thấy ở trên, vì $3.3>0$, chúng ta sẽ phân loại 
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W260.png" width="400"/>
-</p>.
+</p>
 
 **4) Get $𝑃(𝑤∣𝑝𝑜𝑠),𝑃(𝑤∣𝑛𝑒𝑔)$**
 
@@ -142,7 +142,7 @@ Chúng ta có thể sử dụng bảng trên để tính xác suất.
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W261.png" width="400"/>
-</p>.
+</p>
 
 **6) Tính $logprior=\log(P(pos)/P(neg))$**
 
@@ -152,7 +152,7 @@ $logprior=\log\displaystyle\frac{D_{pos}}{D_{neg}}$ Trong đó, $D_{pos}$ và $D
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W270.png" width="400"/>
-</p>.
+</p>
 
 Ví dụ trên cho thấy cách bạn có thể đưa ra dự đoán dựa trên $*λ$* dictionary. Trong ví dụ này, $𝑙𝑜𝑔𝑝𝑟𝑖𝑜𝑟$ là 0 chúng ta có cùng số lượng tweets của positive và negative ($\log1=0$).
 
@@ -171,7 +171,7 @@ Phương pháp này thường được sử dụng như một đường cơ sở
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W290.png" width="400"/>
-</p>.
+</p>
 
 Giả định chính của Naïve Bayes là các từ trong một câu độc lập với nhau. Tuy nhiên, giả định này có thể là một vấn đề vì các từ trong một câu thường có liên quan với nhau.
 
@@ -179,7 +179,7 @@ Giả định chính của Naïve Bayes là các từ trong một câu độc l�
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W291.png" width="400"/>
-</p>.
+</p>
 
 Vấn đề khác của Naïve Bayes là nó phụ thuộc vào phân phối của tập dữ liệu huấn luyện. Nếu tập dữ liệu huấn luyện không đại diện cho dữ liệu thực tế, hiệu suất của mô hình có thể bị ảnh hưởng.
 
@@ -195,10 +195,12 @@ Khi chúng ta sử dụng các phương pháp NLP để phân tích văn bản, 
 
 <p align="center">
   <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W2100.png" width="400"/>
-</p>.
+</p>
+
 - Word Order: Thứ tự của các từ trong một câu có thể ảnh hưởng đến ý nghĩa của nó. Nếu chúng ta loại bỏ một số từ như "no" hoặc "this," văn bản đã qua xử lý có thể truyền đạt một cảm xúc khác so với câu gốc.
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/2101.png" width="400"/>
-</p>.
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W2101.png" width="400"/>
+</p>
+
 - Quirks of Language: Ví dụ, một bài đánh giá phim tích cực có thể chứa chủ yếu các từ tiêu cực, dẫn đến một dự đoán cảm xúc sai.
