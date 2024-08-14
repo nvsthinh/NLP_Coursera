@@ -91,7 +91,7 @@ $V$: số lượng từ duy nhất trong vocabulary
 Theo công thức toán thì biểu diễn như sau:
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W251.png" width="350"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W251.png" width="300"/>
 </p>
 
 Khi $*m$* lớn hơn, chúng ta có thể gặp phải vấn đề về việc số sẽ quá nhỏ, do đó chúng ta sẽ sử dụng $\log$, ta có phương trình như sau: 
@@ -141,7 +141,7 @@ Chúng ta có thể sử dụng bảng trên để tính xác suất.
 **5) Tính $𝜆(𝑤)$**
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W261.png" width="350"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W261.png" width="300"/>
 </p>
 
 **6) Tính $logprior=\log(P(pos)/P(neg))$**
@@ -170,7 +170,7 @@ Phương pháp này thường được sử dụng như một đường cơ sở
 ## 2.9. Naïve Bayes Assumptions
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W290.png" width="550"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W290.png" width="600"/>
 </p>
 
 Giả định chính của Naïve Bayes là các từ trong một câu độc lập với nhau. Tuy nhiên, giả định này có thể là một vấn đề vì các từ trong một câu thường có liên quan với nhau.
@@ -178,7 +178,7 @@ Giả định chính của Naïve Bayes là các từ trong một câu độc l�
 - Ví dụ như nếu chúng ta có câu "Trời nắng và nóng ở sa mạc Sahara", các từ "nắng" và "nóng" thường xuất hiện cùng nhau và có liên quan với nhau. Nhưng Naïve Bayes cho rằng các từ trong một câu là độc lập, điều này có thể dẫn đến việc đánh giá thấp hoặc đánh giá cao xác suất của từng từ.
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W291.png" width="550"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W291.png" width="600"/>
 </p>
 
 Vấn đề khác của Naïve Bayes là nó phụ thuộc vào phân phối của tập dữ liệu huấn luyện. Nếu tập dữ liệu huấn luyện không đại diện cho dữ liệu thực tế, hiệu suất của mô hình có thể bị ảnh hưởng.
