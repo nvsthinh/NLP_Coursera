@@ -91,7 +91,7 @@ $V$: số lượng từ duy nhất trong vocabulary
 Theo công thức toán thì biểu diễn như sau:
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W251.png" width="300"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W251.png" width="250"/>
 </p>
 
 Khi $*m$* lớn hơn, chúng ta có thể gặp phải vấn đề về việc số sẽ quá nhỏ, do đó chúng ta sẽ sử dụng $\log$, ta có phương trình như sau: 
@@ -141,7 +141,7 @@ Chúng ta có thể sử dụng bảng trên để tính xác suất.
 **5) Tính $𝜆(𝑤)$**
 
 <p align="center">
-  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W261.png" width="300"/>
+  <img src="https://github.com/nvsthinh/NLP_Coursera/blob/main/Course_1/data/W261.png" width="200"/>
 </p>
 
 **6) Tính $logprior=\log(P(pos)/P(neg))$**
